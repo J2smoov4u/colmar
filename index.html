@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Colmar Academy</title>
+    <!-- Style Sheets -->
+    <link rel="stylesheet" type="text/css" href="./resources/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="resources/images/favicon.ico" type="image/x-icon">
+
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- Roboto -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:400,500,700,900" rel="stylesheet">
+
+    <!-- Lato -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+
+    <!-- Responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+  <body>
+    <!-- Nav -->
+    <nav>
+      <div class="desktop">
+        <a href="#"><img src="resources/images/White-Logo.png" alt="logo icon"></a>
+        <!-- Responsive Nav -->
+        <ul id="menu">
+          <li>
+            <input id="check01" type="checkbox" name="menu"/>
+            <label for="check01"><i class="fa fa-align-right" aria-hidden="true"></i></label>
+            <ul class="submenu">
+              <li><a href="#">
+                <span><img src="resources/images/ic-on-campus.svg" alt="Campus icon"></span>On Campus</a>
+              </li>
+              <li><a href="#">
+                <span><img src="resources/images/ic-online.svg" alt="online icon"></span>Online</a>
+              </li>
+              <li><a href="#">
+                <span><img src="resources/images/ic-on-campus.svg" alt="Campus icon"></span>For Companies</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <!-- Desktop Nav -->
+        <ul class="links flex" id="myTopnav">
+          <li><a href="#">
+            <span class="hide"><img src="resources/images/ic-on-campus.svg" alt="Campus icon"></span>On Campus</a>
+          </li>
+          <li><a href="#">Online</a></li>
+          <li><a href="#">For Companies</a></li>
+          <li><a href="#">Sign In</a></li>
+        </ul>
+        <button class="toggle" onclick="myFunction()">
+          <i class="fa fa-align-right" aria-hidden="true"></i>
+        </button>
+      </div>
+    </nav>
+    <div class="down">
+      <!-- Hero Banner -->
+      <div class="hero">
+        <div class="hero-learn">
+          <div class="learn-content">
+            <h1>Learn something
+            new everyday
+            </h1>
+            <p>With over 200 different lesson plans to choose from—your career looks bright.
+            </p>
+            <a href="#" id="hero-button">Start Here</a>
+          </div>
+        </div>
+        <div class="study-img"></div>
+      </div>
+      <div class="main-content">
+        <!-- Section 1 -->
+        <div class="container1">
+          <div class="main">
+            <img src="resources/images/information-main.jpg" alt="Man reading">
+            <div class="padding">
+              <h3>It doesn't hurt to keep practicing</h3>
+              <p>"It is proven that extra effort, will bear fruit. Colmar Academy students are successful, because they are encouraged to iterate and improve consistently. "</p>
+              <p class="credit"><span class="name">Emanuel</span> <span class="title">Sr Strategist at Hiring.com</span></p>
+            </div>
+          </div>
+          <div class="side-bar-1">
+            <a href="#"><div class="link l1">
+                <img class="square" src="resources/images/information-orientation.jpg" alt="People walking">
+                <img class="wide" src="resources/images/information-orientation-mobile.jpg" alt="People walking">
+                <div class="text">
+                  <h3 class="title white">Orientiation Date</h3>
+                  <p class="side-bar-body white">Tue 10/11 &amp; Wed 10/12  <br>8am–3am</p>
+                </div>
+              </div>
+            </a>
+            <a href="#"><div class="link l2">
+                <img class="square" src="resources/images/information-campus.jpg" alt="Room">
+                <img class="wide" src="resources/images/information-campus-mobile.jpg" alt="Room">
+                <div>
+                  <h3 class="title white">Our Campus</h3>
+                  <p class="side-bar-body white">Find which campus is close to you</p>
+                </div>
+              </div>
+            </a>
+            <a href="#"><div class="link">
+                <img class="square" src="resources/images/information-guest-lecture.jpg" alt="Male Speaker">
+                <img class="wide" src="resources/images/information-guest-lecture-mobile.jpg" alt="Male Speaker">
+                <div>
+                  <h3 class="title white">Our Guest Lecture</h3>
+                  <p class="side-bar-body white">Join a keynote with Oliver Sack about music in medical treatment.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+        </div>
+        <!-- Section 2 -->
+        <div class="background">
+          <div class="container2">
+            <h2 class="white">Start Learning</h2>
+            <div class="grid">
+              <a href="#">
+                <div class="module">
+                <img src="resources/images/course-software.jpg" alt="Software course">
+                <div class="card">
+                  <div class="hover">
+                    <h2 class="roll-over">View</h2>
+                  </div>
+                  <div class="initial">
+                    <h3>Software Engineer</h3>
+                    <p class="courses">COURSES</p>
+                    <p>Data Science, Big Data, SQL, Data Visualization</p>
+                  </div>
+                </div>
+              </div>
+              </a>
+              <a href="#">
+                <div class="module">
+                <img src="resources/images/course-computer-art.jpg" alt="Computer course">
+                <div class="card">
+                  <div class="hover">
+                    <h2 class="roll-over">View</h2>
+                  </div>
+                  <div class="initial">
+                    <h3>Computer Arts</h3>
+                    <p class="courses">COURSES</p>
+                    <p>Imaging &amp; Design, Web Design, Motion Graphics &amp; Visual Effects, Computer Animation</p>
+                  </div>
+                </div>
+              </div>
+              </a>
+              <a href="#">
+                <div class="module">
+                <img src="resources/images/course-design.jpg" alt="Design course">
+                <div class="card">
+                  <div class="hover">
+                    <h2 class="roll-over">View</h2>
+                  </div>
+                  <div class="initial">
+                    <h3>Design</h3>
+                    <p class="courses">COURSES</p>
+                    <p>User Experience Design, User Research, Visual Design</p>
+                  </div>
+                </div>
+              </div>
+              </a>
+              <a href="#">
+                <div class="module">
+                <img src="resources/images/course-data.jpg" alt="Data course">
+                <div class="card">
+                  <div class="hover">
+                    <h2 class="roll-over">View</h2>
+                  </div>
+                  <div class="initial">
+                    <h3>Data</h3>
+                    <p class="courses">COURSES</p>
+                    <p>Data Science, Big Data, SQL, Data Visualization</p>
+                  </div>
+                </div>
+              </div>
+              </a>
+              <a href="#">
+                <div class="module">
+                <img src="resources/images/course-business.jpg" alt="Business course">
+                <div class="card">
+                  <div class="hover">
+                    <h2 class="roll-over">View</h2>
+                  </div>
+                  <div class="initial">
+                    <h3>Business</h3>
+                    <p class="courses">COURSES</p>
+                    <p>Product Development, Business Development, Startup</p>
+                  </div>
+                </div>
+              </div>
+              </a>
+              <a href="#">
+                <div class="module">
+                <img src="resources/images/course-marketing.jpg" alt="Marketing course">
+                <div class="card">
+                  <div class="hover">
+                    <h2 class="roll-over">View</h2>
+                  </div>
+                  <div class="initial">
+                    <h3>Marketing</h3>
+                    <p class="courses">COURSES</p>
+                    <p>Analytics, Content Marketing, Mobile Marketing</p>
+                  </div>
+                </div>
+              </div>
+              </a>
+            </div>
+            <div class="stack">
+              <a href="#">
+                <div class="learn flex">
+                  <div class="y-icon">
+                    <i class="fa fa-rocket" aria-hidden="true"></i>
+                  </div>
+                  <div class="g-name">
+                    <h3>Software engineering</h3>
+                  </div>
+                </div>
+              </a>
+              <a href="#">
+                <div class="learn flex">
+                  <div class="y-icon">
+                    <i class="fa fa-mouse-pointer" aria-hidden="true"></i>
+                  </div>
+                  <div class="g-name">
+                    <h3>Computer Arts</h3>
+                  </div>
+                </div>
+              </a>
+              <a href="#">
+                <div class="learn flex">
+                  <div class="y-icon">
+                    <i class="fa fa-picture-o" aria-hidden="true"></i>
+                  </div>
+                  <div class="g-name">
+                    <h3>Design</h3>
+                  </div>
+                </div>
+              </a>
+              <a href="#">
+                <div class="learn flex">
+                  <div class="y-icon">
+                    <i class="fa fa-area-chart" aria-hidden="true"></i>
+                  </div>
+                  <div class="g-name">
+                    <h3>Data</h3>
+                  </div>
+                </div>
+              </a>
+              <a href="#">
+                <div class="learn flex">
+                  <div class="y-icon">
+                    <i class="fa fa-bullhorn" aria-hidden="true"></i>
+                  </div>
+                  <div class="g-name">
+                    <h3>Business</h3>
+                  </div>
+                </div>
+              </a>
+              <a href="#">
+                <div class="learn flex">
+                  <div class="y-icon">
+                    <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+                  </div>
+                  <div class="g-name">
+                    <h3>Marketing</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Section 3 -->
+        <div class="container1">
+          <div class="main">
+            <video src="resources/videos/thesis.mp4" controls></video>
+            <div class="padding">
+              <h3>Reimagine Urban</h3>
+              <p>What once was an abandon office building, is now turned into a art center. Discover how Colmar Academy students banned together and help make a difference.</p>
+            </div>
+          </div>
+          <div class="side-bar-1">
+            <a href="#"><div class="link l1">
+                <img class="square" src="resources/images/thesis-fisma.jpg" alt="Thesis">
+                <div class="text">
+                  <h3 class="title white">Fisma: Design and Prototype</h3>
+                  <p class="side-bar-body white">Designer showcase of new prototype product</p>
+                </div>
+              </div>
+            </a>
+            <a href="#"><div class="link">
+                <img class="square" src="resources/images/thesis-now-and-then.jpg" alt="Cityscape">
+                <div>
+                  <h3 class="title white">Now and then</h3>
+                  <p class="side-bar-body white">Research study about New York</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+        </div>
+        <!-- Footer -->
+        <footer>
+          <p>© 2016 Colmar Academy. All rights reserved</p>
+          <div class="site-links">
+            <a href="#">Term</a>
+            <a href="#">Privacy</a>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+  </body>
+</html>
