@@ -258,7 +258,7 @@ nav .desktop .links li:nth-child(4n+0):active {
 .study-img {
   width: 100%;
   height: auto;
-  background-image: url(../images/banner-2.jpg);
+  background-image: url("https://gedalyakrycer.github.io/colmar/resources/images/banner-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right top;
@@ -547,8 +547,8 @@ nav .desktop .links li:nth-child(4n+0):active {
 
 /*——————— Section 2 ———————*/
 .background {
-  background: url(resources/images/LIONS.svg), linear-gradient(179.49deg, #009999 0%, #1F66BB 100%);
-  background-image: url(resources/images/LIONS.svg);
+  background: url(../images/LIONS.svg), linear-gradient(179.49deg, #009999 0%, #1F66BB 100%);
+  /*background-image: url(../images/LIONS.svg);*/
   background-size: cover;
   width: 100%;
 }
